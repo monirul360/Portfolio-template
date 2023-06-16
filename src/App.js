@@ -6,6 +6,7 @@ import AboutMe from "./Page/AboutMe/AboutMe";
 import MyServices from "./Page/MyServices/MyServices";
 import MyFolio from "./Page/MyFolio/MyFolio";
 import MyClients from "./Page/MyClients/MyClients";
+import Contact from "./Page/Contact/Contact";
 function App() {
 
   return (
@@ -17,6 +18,7 @@ function App() {
           <Route path="/myservices" element={<MyServices></MyServices>}></Route>
           <Route path="/myfolio" element={<MyFolio></MyFolio>}></Route>
           <Route path="/myclients" element={<MyClients></MyClients>}></Route>
+          <Route path="/contact" element={<Contact></Contact>}></Route>
         </Route>
       </Routes>
     </>

@@ -22,7 +22,7 @@ const HomeLink = () => {
                 <Link to="/myclients">My Clients</Link>
             </div>
             <div style={{ background: "#0F0933" }}>
-                <Link to="/">Contact Me</Link>
+                <Link to="/contact">Contact Me</Link>
             </div>
         </div>
     );

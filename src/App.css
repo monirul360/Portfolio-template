@@ -357,6 +357,108 @@ a {
   margin: 20px auto;
 }
 
+/* =========contact==================== */
+.contact {
+  max-width: 960px;
+}
+
+.contact .tittle {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 36px;
+  margin: 30px 16px;
+  letter-spacing: 0.24em;
+  text-transform: uppercase;
+
+  color: #000000;
+}
+
+.contact .form-group input {
+  width: calc(50% - 40px);
+  margin: 14px;
+  padding: 16px 21px;
+  background: #FFFFFF;
+  border: 1px solid #DDDDDD;
+  border-radius: 10px;
+}
+
+.contact .form-group textarea {
+  width: calc(100% - 40px);
+  height: 120px;
+  margin: 14px;
+  padding: 16px 21px;
+  background: #FFFFFF;
+  border: 1px solid #DDDDDD;
+  border-radius: 10px;
+}
+
+.contact .form-group input[type=submit] {
+  width: calc(100% - 40px);
+  background: #0F0933;
+  margin: 14px;
+  padding: 16px 21px;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 21px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  border-radius: 10px;
+}
+
+.contact .info {
+  padding: 16px;
+  margin: 50px 0px;
+}
+
+.contact .info {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.contact .info>div {
+  margin-bottom: 30px;
+  margin-right: 40px;
+}
+
+.contact .info .icon {
+  width: 37.12px;
+  height: 42px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid #0F0933;
+  border-radius: 5px;
+  padding: 15px;
+  margin-right: 13px;
+}
+
+.contact .info .icon img {
+  width: 25px;
+  height: 25px;
+}
+
+.contact .info .text p {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  letter-spacing: 0.19em;
+  text-transform: uppercase;
+  color: #333333;
+  margin-bottom: 7px;
+}
+
+.contact .info .text h4 {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  color: #000000;
+}
+
 /* =========Responsive code============ */
 
 @media (max-width:1200px) {
@@ -381,6 +483,18 @@ a {
   .my-folio img {
     height: 280px;
     margin-bottom: 30px;
+  }
+
+  /* ===========contact===========*/
+  .contact .tittle {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 28px;
+    margin: 30px 16px;
+    letter-spacing: 0.24em;
+    text-transform: uppercase;
+    color: #000000;
   }
 
 }
@@ -450,6 +564,18 @@ a {
     font-weight: 500;
     font-size: 25px;
     line-height: 44px;
+    color: #000000;
+  }
+
+  /* ===========contact===========*/
+  .contact .tittle {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 25px;
+    margin: 30px 16px;
+    letter-spacing: 0.24em;
+    text-transform: uppercase;
     color: #000000;
   }
 }
