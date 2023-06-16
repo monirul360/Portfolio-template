@@ -5,6 +5,7 @@ import HomeLink from "./Component/HomeLink";
 import AboutMe from "./Page/AboutMe/AboutMe";
 import MyServices from "./Page/MyServices/MyServices";
 import MyFolio from "./Page/MyFolio/MyFolio";
+import MyClients from "./Page/MyClients/MyClients";
 function App() {
 
   return (
@@ -15,6 +16,7 @@ function App() {
           <Route path="aboutme" element={<AboutMe></AboutMe>}></Route>
           <Route path="/myservices" element={<MyServices></MyServices>}></Route>
           <Route path="/myfolio" element={<MyFolio></MyFolio>}></Route>
+          <Route path="/myclients" element={<MyClients></MyClients>}></Route>
         </Route>
       </Routes>
     </>
