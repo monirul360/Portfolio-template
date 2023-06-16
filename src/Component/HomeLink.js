@@ -8,7 +8,7 @@ const HomeLink = () => {
                 <Link to="/aboutme">ABOUT ME</Link>
             </div>
             <div style={{ background: "#0F0264" }}>
-                <Link to="/">My Services</Link>
+                <Link to="/myservices">My Services</Link>
             </div>
             <div style={{ background: "#FFD028" }}>
                 <Link style={{ color: "#000000" }} to="/">
@@ -16,7 +16,7 @@ const HomeLink = () => {
                 </Link>
             </div>
             <div style={{ background: "#09A8DA" }}>
-                <Link to="/">My Folio</Link>
+                <Link to="/myfolio">My Folio</Link>
             </div>
             <div style={{ background: "#780EFF" }}>
                 <Link to="/">My Clients</Link>

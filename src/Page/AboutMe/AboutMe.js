@@ -1,6 +1,9 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-
+import Illustrator from './../../Img/Tools/Adobe-Illustrator icon.png';
+import Adobe_XD from './../../Img/Tools/Adobe_XD_CC_icon.png';
+import figma from './../../Img/Tools/figma-1-logo.png';
+import ps from './../../Img/Tools/ps.png';
 const AboutMe = () => {
     return (
         <div className='about-me'>
@@ -18,7 +21,23 @@ const AboutMe = () => {
                     <Link to='/'>Download CV</Link>
                     <Link to='/'>My Services</Link>
                 </div>
-                <div className="design-tools"><h3>My Design Tools</h3></div>
+                <div className="design-tools">
+                    <h3>My Design Tools</h3>
+                    <div className="item">
+                        <div>
+                            <img src={figma} alt="" />
+                        </div>
+                        <div>
+                            <img src={ps} alt="" />
+                        </div>
+                        <div>
+                            <img src={Adobe_XD} alt="" />
+                        </div>
+                        <div>
+                            <img src={Illustrator} alt="" />
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     );

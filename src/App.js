@@ -3,6 +3,8 @@ import "./App.css";
 import Home from "./Component/Home/Home";
 import HomeLink from "./Component/HomeLink";
 import AboutMe from "./Page/AboutMe/AboutMe";
+import MyServices from "./Page/MyServices/MyServices";
+import MyFolio from "./Page/MyFolio/MyFolio";
 function App() {
 
   return (
@@ -11,6 +13,8 @@ function App() {
         <Route path="/" element={<Home></Home>}>
           <Route index element={<HomeLink></HomeLink>}></Route>
           <Route path="aboutme" element={<AboutMe></AboutMe>}></Route>
+          <Route path="/myservices" element={<MyServices></MyServices>}></Route>
+          <Route path="/myfolio" element={<MyFolio></MyFolio>}></Route>
         </Route>
       </Routes>
     </>
